@@ -10,10 +10,13 @@
                      Priority="0" />
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <Image Source="https://puu.sh/BxiB5/f0c4b71b37.png"
-               VerticalOptions="FillAndExpand"
-               HorizontalOptions="FillAndExpand"
-               Aspect="AspectFill"
-               Margin="0,-40,0,0"/>
+            <ScrollView>
+            <Grid>
+                <Image Source="https://puu.sh/BxiB5/f0c4b71b37.png"
+                       VerticalOptions="FillAndExpand"
+                       HorizontalOptions="FillAndExpand"
+                       Aspect="AspectFill" />
+            </Grid>
+        </ScrollView>
     </StackLayout>
 </ContentPage>
